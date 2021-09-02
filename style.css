@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(235, 235, 235);
+    border: none;
+    width: 960px;
+    margin: auto;
+}
+
+#header {
+    background-color: rgb(172, 172, 172);
+    width: 960px;
+    margin: none;
+    border: none;
+    position: sticky;
+    top: 0;
+}
+
+.heading {
+    padding: none;
+    margin: 12px 12px 0px 12px;
+    display: inline-block;
+}
+
+#main-nav {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+    margin-left: 435.5px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: rgb(226, 69, 69);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(47, 96, 119, 0.89);
+}
+
+.active {
+    background-color: rgba(47, 96, 119, 0.63);
+}
+
+hr.newBlack {
+    border: 1px solid black;
+}
+
+#about {
+    width: 960px;
+    border: 1px solid black;
+}
+
+.box1, .box2, .box3 {
+    width: 320px;
+    background-color: rgba(0, 128, 128, 0.568);
+    float: left;
+}
+
+#photography {
+    width: 100%;
+}
+
+#music1, #music2, #music3, #music4 {
+    float: left;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    display: inline-block;
+}
+
+#videos {
+    margin: auto;
+    width: 50%;
+}
+
+#footer {
+    background-color: rgba(112, 81, 52, 0.479);
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#faqImage {
+    margin-right: 10px;
+    float: left;
+}
+
+.foot1, .foot2 {
+    margin-top: 20px;
+    text-align: center;
+}
