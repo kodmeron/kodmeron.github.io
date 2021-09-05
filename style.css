@@ -91,6 +91,7 @@ hr.newBlack {
     width: 100%;
     margin-top: 20px;
     display: inline-block;
+    border-radius: 15px;
 }
 
 #faqImage {
