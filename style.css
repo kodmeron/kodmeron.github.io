@@ -57,16 +57,20 @@ hr.newBlack {
     border: 1px solid black;
 }
 
-#about {
+.about {
     width: 960px;
-    border: 1px solid black;
+    height: auto;
+    background-color: rgba(0, 128, 128, 0.568);
+    border-top: 2px solid black;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 5px;
 }
 
-.box1, .box2, .box3 {
-    width: 320px;
-    background-color: rgba(0, 128, 128, 0.568);
-    float: left;
+[class*="box"] {
+    background-color: none;
 }
+
 
 #photography {
     width: 100%;
