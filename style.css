@@ -69,6 +69,12 @@ hr.newBlack {
 
 [class*="box"] {
     background-color: none;
+    padding-left: 3px;
+    justify-self: start; /* start | end | center | stretch (default); */
+    align-self: start; /* start | end | center | stretch (default); */
+    /* short-hand */
+    place-self: center;
+    place-self: center center; /* <align-self> / <justify-items>*/
 }
 
 
